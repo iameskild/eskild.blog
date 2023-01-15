@@ -4,8 +4,10 @@ title: eskild.blog
 
 theme: PaperMod
 
-# taxonomies:
-#   tag: tags
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 menu:
   main:
@@ -23,9 +25,6 @@ menu:
       url: about
       weight: 20
 
-# changes to default settings
-# canonifyurls: true
-
 params:
     homeInfoParams:
         Title: Welcome!
@@ -37,7 +36,6 @@ params:
         - name: LinkedIn
           url: https://linkedin.com/in/eskilderiksen/
 
-  
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: ""
 
@@ -51,4 +49,4 @@ params:
     # ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: true
-    ShowToc: true
+    # ShowToc: true
