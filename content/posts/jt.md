@@ -1,0 +1,33 @@
+---
+title: "The Joshua Tree"
+date: 2021-05-30T15:09:04-08:00
+draft: false
+tags:
+- Tree of the Month
+- National Park Service
+---
+
+![Joshua Tree at night](/images/joshua_tree_at_night.jpg)
+
+The desert is an unlikely home for a tree, yet in the Mojave Desert of the US southwest, you will find a strange and sharply unique tree, straight from another planet, the [Joshua Tree (Yucca Brevifolia)](https://en.wikipedia.org/wiki/Yucca_brevifolia). This desert celebrity – the namesake of the National Park two hours east of Los Angeles – is the perfect destination to appreciate these exceptional trees while they are still here. 
+
+Due to a variety of factors, which naturally includes a rapidly changing climate, the long-term survival of the Joshua Tree is in jeopardy. By the end of the current century, we could see the range of these majestic trees reduced by 90%, ironically this might include the [Joshua Tree National Park](https://www.nps.gov/jotr/index.htm) itself <sup>[1](#references)</sup>. 
+
+All living organisms – including humans of course – are highly dependent on their environment and other organisms for survival; the Joshua Tree is no different. For the Joshua Tree to reproduce, it requires a unique set of weather conditions, as well as the assistance from a few local species.
+
+First, the Joshua Tree requires a winter freeze and a timely spring rainfall. These conditions alone inhibit the tree, and many other desert plants, from blossoming on a yearly basis. 
+
+Once the tree does blossom, the flowers are pollinated by a single species, the [yucca moth](https://en.wikipedia.org/wiki/Prodoxidae). These two species have come to a mostly mutually beneficial relationship whereby, in exchange for pollinating the Joshua Tree flowers, the yucca moth is permitted to lay her eggs inside the flower ovary. Not only do the eggs benefit from some level of protection, the are also able to feed on the Joshua Tree seeds when they eventually hatch. 
+
+If enough seeds remain, the next act, though still not fully understood by scientists, seems to depend on the assistance of desert rodents such as the [white-tail antelope squirrel](https://en.wikipedia.org/wiki/White-tailed_antelope_squirrel). By storing the Joshua Tree seeds in nearby, underground caches – often under the shade and protection of other desert shrubs such as the blackbush – these squirrels offer the Joshua tree an increased chance that their seeds will germinate <sup>[2](#references)</sup>.  
+
+Even if all these conditions are met, the chances of a seed germinating and growing to adolescence are still quite slim. Factor in the changing climate and the potential need for the Joshua Tree species to migrate to more suitable environments, it is no wonder that the outlook of these trees is unfortunately bleak. 
+
+As individuals, there are changes we can make to reduce the negative impacts of climate change, and to improve the odds that the Joshua Tree makes it to the 22nd century. Yet given the scope of the problem, large-scale societal changes will need to be enacted, and enacted soon. 
+
+However, we can honor the Joshua Tree, yucca moth, and the other desert species by recognizing our own reliance on the environment, on other species and on one another. Doing so might make us more compassionate and remind us that our “successes” and our “failures” are not entirely our own.
+
+## References
+<sup>1</sup> Waitman, B. A., et al. “Seed Dispersal and Seed Fate in Joshua Tree (Yucca Brevifolia).” Journal of Arid Environments, vol. 81, 2012, pp. 1–8. Crossref, doi:10.1016/j.jaridenv.2011.12.012.
+<br>
+<sup>2</sup> Jones, Taylor and Goldrick, Sabrina, [Petition to List the Joshua Tree (Yucca brevifolia) Under the Endangered Species Act](https://pdf.wildearthguardians.org/site/DocServer/Joshua_tree_petition.pdf?docID=16684), 28 Sept 2015. 

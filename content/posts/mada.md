@@ -1,7 +1,10 @@
 ---
-title: "3 Reasons to Vist the Eighth Continent, Madagascar"
+title: "3 Reasons to Visit the Eighth Continent, Madagascar"
 date: 2019-05-05T22:15:27-08:00
 draft: false
+tags:
+- travel
+- madagascar
 ---
 
 *This is my attempt at writing at an exciting travel blog. I found writing this to be extremely fun and hope to write more about travel in the future.*
