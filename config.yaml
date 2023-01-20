@@ -4,6 +4,8 @@ title: eskild.blog
 
 theme: PaperMod
 
+# enableGitInfo: true
+
 markup:
   goldmark:
     renderer:
