@@ -3,8 +3,8 @@ title: "2016 House of Representatives General Election: Campaign Finance Analysi
 date: 2019-10-31T14:25:47-08:00
 draft: false
 tags:
-- FEC
-- data analysis
+- Data Analysis
+- Federal Election Commission
 ---
 
 *A Deep Dive into the 2016 House of Representatives General Election Campaign Finances*
@@ -31,13 +31,13 @@ And an expenditure ("making disbursements") is a purchase, payment, distribution
 
 There are [limits](https://transition.fec.gov/info/contriblimitschart1516.pdf) on how much a donor can give a candidate’s committee as well as whether or not the committee needs to itemize the donation. Donations need to be itemized if or once a donor gives more than $200, then referred to as an [itemized contribution](https://www.fec.gov/help-candidates-and-committees/filing-reports/individual-contributions/). Donations less than $200 are not required to be itemized and are known as unitemized contributions.
 
-Each of these candidates should have a principal campaign committee ([authorized committee](https://www.fec.gov/help-candidates-and-committees/guides/?tab=candidates-and-their-authorized-committees), or House committee) which "has been authorized by the candidate to accept contributions or makes expenditures on his or her behalf."
+Each of these candidates should have a principal campaign committee ([authorized committee](https://www.fec.gov/help-candidates-and-committees/guides/?tab=candidates-and-their-authorized-committees), or House committee ) which "has been authorized by the candidate to accept contributions or makes expenditures on his or her behalf."
 
 It is these principal committees that provide the insight into how much money a candidate raised and spent over the course of an election. 
 
 There are of course [other types of committees](https://www.fec.gov/campaign-finance-data/committee-type-code-descriptions/) that raise and spend money with the hope of influencing an election. Perhaps most notably are the independent expenditure-only committees, or more commonly known as Super PACs.  Like stated above, this analysis will solely focus on principal committees however I do have plans to analyze the finances of other committees in the future. 
 
-Lastly, during the course of a campaign, each principal committee is required to file periodic reports ([FEC Form 3](https://www.fec.gov/help-candidates-and-committees/forms/)) detailing the total receipts (money, goods, etc. received) and the total disbursements (purchases, payments, etc. made) for the specified interval. These reports are filed quarterly, and leading up to both the primary and general elections. 
+Lastly, during the course of a campaign, each principal committee is required to file periodic reports ([FEC Form 3](https://www.fec.gov/help-candidates-and-committees/forms/) ) detailing the total receipts (money, goods, etc. received) and the total disbursements (purchases, payments, etc. made) for the specified interval. These reports are filed quarterly, and leading up to both the primary and general elections. 
 
 Adding up the total receipts and the total disbursements for all reports filed will give us the grand total raised and spent over the course of the election.
 
@@ -45,7 +45,10 @@ Adding up the total receipts and the total disbursements for all reports filed w
 
 The diagram below outlines, at a high-level, how the data was gathered and combined.
 
-<insert Diagram 1: Gathering, Cleaning and Combining Data>
+<p align="center"><img src="/images/campaignfinance/data_flow.jpg" alt="Diagram 1: Gathering, Cleaning and Combining Data" width="500"></p>
+
+<sup>Diagram 1: Gathering, Cleaning and Combining Data</sup>
+
 
 The 2016 Election Results data set was downloaded as an excel spreadsheet from the FEC [website](https://transition.fec.gov/pubrec/electionresults.shtml). The relevant information was extracted and cleaned and is refered to as `results`.
 
@@ -55,7 +58,9 @@ Once the principal committee IDs are gathered, we can create a new data set whic
 
 Now let's look at the percentage of candidates for whom we were able to find principal committee information. 
 
-<insert Chart 1: Percentage of Candidates with Principal Committees>
+<p align="center"><img src="/images/campaignfinance/cands_pc_percent.jpg" alt="Chart 1: Percentage of Candidates with Principal Committees" width="500"></p>
+
+<sup>Chart 1: Percentage of Candidates with Principal Committees</sup>
 
 There might be a few reasons why a candidate received general election votes but doesn't have a prinicpal committee. 
 
@@ -67,7 +72,9 @@ Next, we can then use the [API financials endpoint](https://api.open.fec.gov/dev
 
 We might expect to see a few candidates who did file a Statement of Candidacy but not report their spending to the FEC. The chart below indicates just this. This percentage can be no greater than the percentage of candidates who have principal committees.
 
-<insert Chart 2: Percentage of Principal Committees that Filed FEC Form 3>
+<p align="center"><img src="/images/campaignfinance/cands_form3_percent.jpg" alt="Chart 2: Percentage of Principal Committees that Filed FEC Form 3" width="500"></p>
+
+<sup>Chart 2: Percentage of Principal Committees that Filed FEC Form 3</sup>
 
 Since the goal of this analysis is to determine whether spending more on a campaign results in winning the election, it is vital that we have information about a candidates spending during the campaign. Going forward, I think it is safe to assume that all the candidates that don't have principal committees or those who do but didn't report their spending to the FEC (Form 3) raised and spent less than $5000.  
 
@@ -107,7 +114,9 @@ The columns from `financial_reports` that we are interested in are the listed be
 
 Before diving into calculating and analyzing correlations, let's get an idea of what percentage of candidates spent the most and also ended up winning their elections.
 
-<insert Chart 3: Percentage of Candidates who Spent the Most and Won General Election>
+<p align="center"><img src="/images/campaignfinance/spent_more_and_won.jpg" alt="Chart 3: Percentage of Candidates who Spent the Most and Won General Election" width="500"></p>
+
+<sup>Chart 3: Percentage of Candidates who Spent the Most and Won General Election</sup>
 
 Although at this time it's difficult to make causal claims about whether spending more money during an election cycle has a direct impact on their chances of winning the election, it is clear that the candidates who spent the most money during the 2016 election cycle ended up winning the vast majority of the time. For 29 states, all of the candidates who spent more ended up winning and in 43 states, 80% of the candidates who spent more ended up winning.
 
@@ -115,7 +124,9 @@ There are likely many other confounding variables that haven't been taken into a
 
 Let's look at the correlation matrices for the numerical columns in `results_pc_fs` (disbursements).
 
-<insert Chart 5: Correlation Matrix: Disbursements and General Election Results (chart 4)>
+<p align="center"><img src="/images/campaignfinance/corr_matrix_fs.jpg" alt="Chart 4: Correlation Matrix: Disbursements and General Election Results" width="500"></p>
+
+<sup>Chart 4: Correlation Matrix: Disbursements and General Election Results</sup>
 
 It is clear that there is an extremely strong correlation (r=0.98) between 'Operating Expenditures' and 'Total Disbursements', which might indicate that a majority of the money spent by the principal committee is on their operating expenses. 
 
@@ -123,31 +134,41 @@ This makes sense since operating expenditures represents the vast majority of wh
 
 There appears to be two columns, 'Operating Expenditures' (r=0.37) and 'Total Disbursements' (r=0.41), that have a moderate and positive correlation to 'General Votes'. Let's explore scatterplots for both of these columns compared to the 'General Votes'.
 
-<insert Chart 6: Disbursement Categories vs General Election Votes (chart 5)>
+<p align="center"><img src="/images/campaignfinance/disbursement_categories_vs_general_election_votes.jpg" alt="Chart 5: Disbursement Categories vs General Election Votes" width="500"></p>
+
+<sup>Chart 5: Correlation Matrix: Disbursements and General Election Results</sup>
 
 By looking at the scatterplots for both 'Total Disbursements' ($) versus 'General Votes' (count) and 'Operating Expenditures' ($) versus 'General Votes' (count), the strength of their respective correlations is less clear. The general election winners, in general, appear to have spent more and received more votes and the reverse appears to be true for the general election losers.
 
 Now let's take a look at which categories contribute the most to overall total disbursement. 
 
-<insert Chart 7: Major Disbursements (chart 6)>
+<p align="center"><img src="/images/campaignfinance/major_disbursements.jpg" alt="Chart 6: Major Disbursements" width="500"></p>
+
+<sup>Chart 6: Major Disbursements</sup>
 
 The above chart makes it clear that operating expenditures account for the vast majority  disbursements (or spending). This is what we expected from such a high r-value above. 
 
 Next, let's look at the correlation matrices for the numerical columns in `results_pc_fr` (receipts).
 
-<insert Chart 8: Correlation Matrix: Receipts and General Election Results (chart 7)>
+<p align="center"><img src="/images/campaignfinance/corr_matrix_fr.jpg" alt="Chart 7: Correlation Matrix: Receipts and General Election Results" width="500"></p>
+
+<sup>Chart 7: Correlation Matrix: Receipts and General Election Results</sup>
 
 Again, there appear to be a few receipt-related columns that are highly correlated to 'Total Receipts', namely, 'Individual Itemized Contributions' (r=0.83), 'Individual Unitemized Contributions' (r=0.45), 'Other Political Committee Contributions' (r=0.69) and 'Transfers from Other Authorized Committees' (r=0.5). These categories might account for where the majority of funding comes from, on average, for most candidates. 
 
 There appears to be two, or three columns that have a moderately positive correlation with 'General Votes', these would be 'Individual Itemized Contributions' (r=0.39), 'Other Political Committee Contributions' (r=0.54) and 'Total Receipts' (r=0.43). The remaining columns have weak or no correlation to the general election votes.
 
-<insert Chart 8: Receipts Categories vs General Election Votes>
+<p align="center"><img src="/images/campaignfinance/receipt_categories_vs_general_election_votes.jpg" alt="Chart 8: Receipts Categories vs General Election Votes" width="500"></p>
+
+<sup>Chart 8: Receipts Categories vs General Election Votes</sup>
 
 Like the scatter plots generated for disbursement columns versus general votes, the scatter plots generated for these three receipt columns appear to have similar shapes. That is the winners of the general election, in general, receive more contributions than their opponents. 
 
 Lastly, let's explore where the majortiy of candidates contributions come from.
 
-<insert Chart 9: Contributions to Candidates>
+<p align="center"><img src="/images/campaignfinance/contributions_to_candidates.jpg" alt="Chart 9: Contributions to Candidates" width="500"></p>
+
+<sup>Chart 9: Contributions to Candidates</sup>
 
 It appears that individual itemized contributions and other political committee contributions account for the majority of the funds raised (total receipts). This confirms the relatively high r-values seen for these two categories. 
 
