@@ -29,8 +29,8 @@ menu:
 
 params:
     homeInfoParams:
-        Title: Welcome!
-        Content: Can be Info, links, about...
+        Title: Welcome...
+        Content: to eskild.blog
 
     socialIcons:
         - name: GitHub
