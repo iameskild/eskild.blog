@@ -1,10 +1,8 @@
-baseURL: https://eskild.blog
+baseURL: https://www.eskild.blog
 languageCode:  en-us
 title: eskild.blog
 
 theme: PaperMod
-
-# enableGitInfo: true
 
 markup:
   goldmark:
@@ -37,7 +35,7 @@ params:
   - name: LinkedIn
     url: https://linkedin.com/in/eskilderiksen/
 
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  env: production
   description: ""
 
   defaultTheme: auto
