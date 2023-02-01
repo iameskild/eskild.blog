@@ -13,43 +13,42 @@ markup:
 
 menu:
   main:
-    - name: Archive
-      url: archives
-      weight: 5
-    - name: Tags
-      url: tags
-      weight: 10
-    - name: RSS
-      url: index.xml
-      identifier: rss
-      weight: 15
-    - name: About
-      url: about
-      weight: 20
+  - name: Archive
+    url: archives
+    weight: 5
+  - name: Tags
+    url: tags
+    weight: 10
+  - name: RSS
+    url: index.xml
+    identifier: rss
+    weight: 15
+  - name: About
+    url: about
+    weight: 20
 
 params:
-    homeInfoParams:
-        Title: Welcome...
-        Content: to eskild.blog
+  homeInfoParams:
+    Title: Welcome!
 
-    socialIcons:
-        - name: GitHub
-          url: https://github.com/iameskild
-        - name: LinkedIn
-          url: https://linkedin.com/in/eskilderiksen/
+  socialIcons:
+  - name: GitHub
+    url: https://github.com/iameskild
+  - name: LinkedIn
+    url: https://linkedin.com/in/eskilderiksen/
 
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: ""
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: ""
 
-    defaultTheme: auto
-    # disableThemeToggle: true
-    # ShowShareButtons: true
-    ShowReadingTime: true
-    # disableSpecial1stPost: true
-    displayFullLangName: true
-    ShowPostNavLinks: true
-    # ShowBreadCrumbs: true
-    ShowCodeCopyButtons: true
-    ShowRssButtonInSectionTermList: true
-    # ShowToc: true
-    ShowFullTextinRSS: true
+  defaultTheme: auto
+  # disableThemeToggle: true
+  # ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  # displayFullLangName: true
+  ShowPostNavLinks: true
+  # ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  # ShowRssButtonInSectionTermList: true
+  # ShowToc: true
+  ShowFullTextinRSS: true
