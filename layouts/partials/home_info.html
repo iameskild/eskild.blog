@@ -1,0 +1,17 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>Welcome!</h1>
+    </header>
+    <div class="entry-content">
+        {{ .Content | markdownify }}
+    </div>
+    <div class="entry-image">
+        <img src="/images/dandy.jpg" alt="Your image description">
+    </div>
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" site.Params.socialIcons }}
+    </footer> 
+</article>
+{{- end -}}
+
