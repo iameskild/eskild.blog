@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Attention on eskild.blog</title><link>https://www.eskild.blog/tags/attention/</link><description>Recent content in Attention on eskild.blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 26 Jan 2024 08:38:54 +0700</lastBuildDate><atom:link href="https://www.eskild.blog/tags/attention/index.xml" rel="self" type="application/rss+xml"/><item><title>Smartphones as Pocketknives</title><link>https://www.eskild.blog/posts/2023-12-05-pk/</link><pubDate>Fri, 26 Jan 2024 08:38:54 +0700</pubDate><guid>https://www.eskild.blog/posts/2023-12-05-pk/</guid><description>Modern smartphones retain the name of the tool they were initially designed as, phones. The irony is that making traditional phone calls probably makes up only a tiny fraction of what most people use their phones for these days.
+If you’re an iPhone user, have a look at your Screen Time to get a more accurate sense of how you actually use your phone. If I had to guess, social media, video streaming, and messaging top the list, and perhaps in quantities that you would be a little embarrassed to admit.</description><content:encoded><![CDATA[<p align="center">
+<img src="/images/smartphone_pocketknife.jpg" alt="A smartphone with tools coming out." width="1000">
+</p>
+<p>Modern smartphones retain the name of the tool they were initially designed as, phones. The irony is that making traditional phone calls probably makes up only a tiny fraction of what most people use their phones for these days.</p>
+<p>If you’re an iPhone user, have a look at your  
+<a href="https://support.apple.com/en-us/108806" target="_blank">Screen Time</a> to get a more accurate sense of how you <em>actually</em> use your phone. If I had to guess, social media, video streaming, and messaging top the list, and perhaps in quantities that you would be a little embarrassed to admit.</p>
+<p>This post aims to convince you that we should reframe our relationship to our smartphones, and in the process, become a lot more selective about what we allow on them. The framing I would like us to consider is captured by the title of the post, <em>Smartphones as Pocketknives</em>; a device with several distinct tools that is used as needed and returned to our pockets when not.</p>
+<p>In the coming sections, I will share a few tips and techniques that I’ve discovered or developed over the years that have fundamentally altered how and when I use my smartphone.</p>
+<blockquote>
+<p>This post focuses on techniques specific to Apple iPhones. I also assume you have another device such as a tablet, laptop, or desktop.</p>
+</blockquote>
+<h2 id="why-make-this-change">Why make this change?</h2>
+<p>You make the changes I outline below because you have this nagging sense that one of the most important pieces of technology in your life is not serving you.</p>
+<p>You make these changes because after 3 hours of scrolling Reddit or watching YouTube video after YouTube video, you feel guilty and somehow kind of dirty.</p>
+<p>You make these changes because you recognize you don’t want to be the couple at a fancy restaurant fiddling away on your phone instead of sharing a romantic meal.</p>
+<p>You make these changes because you’re tired of magically finding yourself on your phone unable to remember when you stopped working and started goofing off.</p>
+<p>It wasn’t always this way.</p>
+<p>Reframing our relationship with our phones and drastically reducing how much time we spend on them won’t solve all of your problems but it might, all things being equal, slowly help you improve your attention span.</p>
+<p>We’ve all heard of a friend or some celebrity ditching their smartphone - sometimes for a “dumb” flip phone or sometimes for no phone at all - and we’ve half-jokingly longed for the same escape. The changes I’m proposing try to thread the needle between two extremes - the doom-scrolling NPC and the technology-bashing luddite - and hopefully empower us to use this incredible technology a bit more wisely.</p>
+<h2 id="purge-purge-and-purge-some-more">Purge, purge, and purge some more</h2>
+<p>My first recommendation is simple, purge any application that falls into one of the following categories:</p>
+<ul>
+<li><strong>social media</strong>: Facebook, Instagram, Tik-Tok, Snapchat, X (Twitter), Reddit, etc.</li>
+<li><strong>news &amp; sports</strong>: CNN, New York Times, Fox News, ESPN, NBA, NFL, etc.</li>
+<li><strong>video streaming</strong>: YouTube, Netflix, Prime Video, Hulu, etc.</li>
+<li><strong>gaming &amp; dating</strong>: You know the ones&hellip;</li>
+<li><strong>third-party browsers</strong>: Chrome, Firefox, etc. (more on why this is important later)</li>
+<li><strong>shopping</strong>: Amazon, Walmart, Etsy, etc.</li>
+</ul>
+<blockquote>
+<p>HARD MODE: Stop following the news all together.</p>
+</blockquote>
+<p align="center">
+<img src="/images/purge_apps.jpg" alt="Personified apps running away from an axe murderer" width="500">
+</p>
+<p>That might be more than half of the apps on your phone but I think it’s important to purge any app that pulls on your attention in unhelpful ways. Personally, the list above is ranked in descending order of how distracting (and harmful) they have the potential to be.</p>
+<p>I can already hear some of you saying, I need <em>[insert app]</em> for my job. My first question is, do you really? And if that’s truly the case, can the job function not be performed on another device such as your laptop? Can you request a work phone from your company? And if none of those are feasible, would you consider setting a firm  
+<a href="https://support.apple.com/guide/iphone/set-up-screen-time-for-yourself-iphb0c7313c9/ios" target="_blank">App Limit</a>, say 1 hour a day?</p>
+<p>Of course, some apps can’t realistically be used on any other device other than your smartphone, specifically Snapchat and Instagram (at least for posting new content). For those apps, honestly consider how important they are to you, and if you still want them on your phone, try subjecting them to strict App Limits.</p>
+<blockquote>
+<p>HARD MODE: Delete or deactivate all of your social media.</p>
+</blockquote>
+<p>You can, of course, add an App Limit to any of the apps that I recommended removing but where&rsquo;s the challenge in that?</p>
+<h2 id="lock-it-down">Lock it down</h2>
+<p>At this point, your phone may be unrecognizable to you. But we can go further.</p>
+<p>If you took my advice above and removed all third-party browsers, we can use a few additional iPhone Screen Time features to lock down your phone even further.</p>
+<p>It’s no good removing the YouTube app, only to navigate to youtube.com in your phone’s browser. Therefore my recommendation is to block all of the sites whose apps you just removed - all social media sites, streaming sites, news and sports sites, etc.</p>
+<p align="center">
+    Step 1: Navigate to <strong>Settings</strong>
+    <img src="/images/iphone_settings_icon.jpg" alt="The iPhone settings icon." width="150">
+</p>
+<p align="center">
+    Step 2: <strong>Screen Time</strong>
+    <img src="/images/iphone_settings.jpg" alt="Screenshot of iPhone settings menu." width="300">
+</p>
+<p align="center">
+    Step 3: <strong>Content & Privacy Restrictions</strong>
+    <img src="/images/iphone_screen_time.jpg" alt="Screenshot of iPhone screen time menu." width="300">
+</p>
+<p>For these changes to take effect, you will need to toggle the <code>Content &amp; Privacy Restrictions</code> button.</p>
+<p align="center">
+    Step 4: <strong>Content Restrictions</strong>
+    <img src="/images/iphone_content_restrictions.jpg" alt="Screenshot of iPhone privacy and content restriction menu." width="300">
+</p>
+<p align="center">
+    Step 5: <strong>Web Content</strong>
+    <img src="/images/iphone_web_content.jpg" alt="Screenshot of iPhone content restriction menu." width="300">        
+</p>
+<p>It may also be worth setting the allowed web content to “Limit Adult Websites” as well, especially for you young (and not so young) lads out there.</p>
+<p align="center">
+    Step 6: Add sites to the <strong>Never Allow</strong> list
+    <img src="/images/iphone_web_content_never_allow.jpg" alt="Screenshot of iPhone web content menu." width="300">
+</p>
+<p>Finally, I highly recommend setting a  
+<a href="https://support.apple.com/en-us/108806" target="_blank">Screen Time Passcode</a> so that you are forced to acknowledge when you are breaking your own rules - this will also apply to App Limits.</p>
+<blockquote>
+<p>HARD MODE: Have a friend or partner set the Screen Time Passcode for you.</p>
+</blockquote>
+<p align="center">
+    <img src="/images/iphone_screen_time_passcode.jpg" alt="Screenshot of iPhone web content menu." width="300">
+</p>
+<p>If you’ve gotten this far, pause and congratulate yourself! In the coming days and weeks, the urge to distract yourself with your phone will hopefully decrease, and with it, the “attention muscles” should start to strengthen.</p>
+<p>Now, what tools do you want in your pocketknife?</p>
+<h2 id="make-it-your-own">Make it your own</h2>
+<p>I think of my smartphone as a device for primarily a handful of activities, these include:</p>
+<ul>
+<li><strong>communication</strong>: Phone, Messages,  
+<a href="https://apps.apple.com/us/app/whatsapp-messenger/id310633997" target="_blank">WhatsApp</a>,  
+<a href="https://apps.apple.com/us/app/signal-private-messenger/id874139669" target="_blank">Signal</a>, etc.</li>
+<li><strong>health &amp; fitness</strong>:  
+<a href="https://apps.apple.com/us/app/streaks/id963034692" target="_blank">Streaks</a>,  
+<a href="https://apps.apple.com/us/app/nike-run-club-running-coach/id387771637" target="_blank">Nike Run Club</a>, Health, etc.</li>
+<li><strong>productivity</strong>: Calendar,  
+<a href="https://apps.apple.com/lr/app/todoist-to-do-list-planner/id572688855" target="_blank">Todoist</a>,  
+<a href="https://apps.apple.com/us/app/chatgpt/id6448311069" target="_blank">ChatGPT</a>,  
+<a href="https://apps.apple.com/gb/app/microsoft-onedrive/id477537958" target="_blank">OneDrive</a>, Reminders, etc.</li>
+<li><strong>finance</strong>:  
+<a href="https://apps.apple.com/us/app/ynab/id1010865877" target="_blank">YNAB</a>,  
+<a href="https://apps.apple.com/us/app/venmo/id351727428" target="_blank">Venmo</a>, banking apps, etc.</li>
+<li><strong>entertainment</strong>:  
+<a href="https://apps.apple.com/us/app/spotify-music-and-podcasts/id324684580" target="_blank">Spotify</a>,  
+<a href="https://apps.apple.com/us/app/waking-up-meditation-wisdom/id1307736395" target="_blank">Waking Up</a>,  
+<a href="https://apps.apple.com/us/app/overcast/id888422857" target="_blank">Overcast</a>,  
+<a href="https://apps.apple.com/gb/app/matter-read-listen-learn/id1501592184" target="_blank">Matter</a>, etc.</li>
+<li><strong>travel</strong>: Maps,  
+<a href="https://apps.apple.com/gb/app/flighty-live-flight-tracker/id1358823008" target="_blank">Flighty</a>,  
+<a href="https://apps.apple.com/us/app/uber-request-a-ride/id368677368" target="_blank">Uber</a>,  
+<a href="https://apps.apple.com/us/app/airalo-esim-travel-internet/id1475911720" target="_blank">Airalo</a>,  
+<a href="https://apps.apple.com/us/app/google-translate/id414706506" target="_blank">Google Translate</a>, airline apps, etc.</li>
+<li><strong>utilities</strong>: Camera, Calculator,  
+<a href="https://apps.apple.com/us/app/microsoft-authenticator/id983156458" target="_blank">2FA authenticator</a>, insurance and home utility apps, etc.</li>
+</ul>
+<p>Each app has a specific purpose and none of them require any real willpower to stay off of — one of the keys to avoiding prolonged time on your phone.</p>
+<p>To reduce the number of times your phone interrupts you, also try limiting push notifications to only apps that require your immediate attention, more on  
+<a href="#focus-modes">Focus Mode</a> below.</p>
+<h2 id="make-it-beautiful">Make it beautiful</h2>
+<p>When the iPhone was first introduced in 2007, the home screen could only be black, there were no widgets, no Focus modes, no way of customizing the Control Center, etc. Now 16 years later, you’re free to make most of the changes Android users have enjoyed (and teased us about) for over a decade. Embrace these updates and make it beautiful!</p>
+<p>This part has the potential to be the most entertaining and engaging part of this whole reframing, at least for a certain kind of person. To avoid this post ballooning in size, I will leave you with a handful of general ideas and suggestions.</p>
+<h3 id="app--widget-layout">App + Widget Layout</h3>
+<p>After the purge, there are realistically only a handful of apps that you’ll use with any consistency. Put them in prominent places, like the dock or home screen, to minimize the number of taps they take to open. Leave the rest of the apps in the app tray.</p>
+<p>App in app folders. Not my thing, but do you.</p>
+<p>Consider using widgets for apps that don’t necessarily need to be opened to be useful; think of the Calendar, Weather, or Reminders widgets.</p>
+<h3 id="focus-modes">Focus Modes</h3>
+<p>I highly encourage you to experiment with  
+<a href="https://support.apple.com/en-us/108302" target="_blank">Focus Modes</a> as a way of emphasizing you when certain tools and apps should be used.</p>
+<p>At the moment, I&rsquo;m experimenting with the following Focus Modes:</p>
+<ul>
+<li>📱 Default
+<ul>
+<li>Used for communication, music, exercise, with a few other commonly used tools like Authenticator or Google Maps</li>
+</ul>
+</li>
+<li>🌙 Sleep
+<ul>
+<li>Scheduled between 22:00 and 7:00 the next morning</li>
+<li>Displays a few health and habit tracking widgets and nothing else</li>
+<li>All notifications are disabled (except for my whitelist)</li>
+</ul>
+</li>
+<li>💼 Work
+<ul>
+<li>Scheduled between 7:00 until 12:00 and from 13:00 to 17:00</li>
+<li>Removes all communication apps, and replaces them with other work-related utilities</li>
+<li>All notifications are disabled (except for my whitelist)</li>
+</ul>
+</li>
+<li>✈️ Travel
+<ul>
+<li>Includes Flighty and other apps I use frequently when traveling like Google Translate, Uber, Currency Converter, etc.</li>
+</ul>
+</li>
+</ul>
+<p>When done well, Focus Mode can make you feel like you have access to multiple different pocketknives with the flip of a switch.</p>
+<h2 id="wrap-up">Wrap Up</h2>
+<p>Phew, that was a lot! I feel I have much more to say about technology, news, social media, and many other topics that intersect with phones and the default relationship we develop with them, but I will save those thoughts for another time.</p>
+<p>The process outlined above removed many apps that we probably open dozens of times a day, apps that distract us when we’re uncomfortable or bored, apps that anger us, and apps that, in turn, enable and encourage us to get angry at others. I won’t lie and claim that it’s easy or that there won’t be times you wish you had <em>that app</em> or wanted more information <em>right now</em> about a certain news event.</p>
+<p>This approach may seem a little extreme, and it probably is. But that said, I know how much better I started feeling after wrestling back more and more of my attention, in large part because of many of the changes I just described. After some adjustment, I’d be a little surprised if you didn’t feel at least a little more focused. And, maybe, just maybe a little bit happier.</p>
+]]></content:encoded></item></channel></rss>
