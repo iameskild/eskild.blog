@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Homelab on eskild.blog</title><link>https://www.eskild.blog/tags/homelab/</link><description>Recent content in Homelab on eskild.blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 27 Aug 2024 22:15:22 -0700</lastBuildDate><atom:link href="https://www.eskild.blog/tags/homelab/index.xml" rel="self" type="application/rss+xml"/><item><title>In the beginning, there was hardware</title><link>https://www.eskild.blog/posts/2024-08-27-hl0/</link><pubDate>Tue, 27 Aug 2024 22:15:22 -0700</pubDate><guid>https://www.eskild.blog/posts/2024-08-27-hl0/</guid><description>The home lab. Sounds cool, you should get yourself one ;)
+Here&amp;rsquo;s how I got started quickly and cheaply.
+Requirements Besides cost and speed, I have a few other requirements and preferences that should help make simplify the process and hopefully make it more useful long-term.
+First, given that I&amp;rsquo;m writing this on my M1 Macbook - with it&amp;rsquo;s arm architecture - it makes sense for me to have a dedicated x86_64 machine.</description><content:encoded><![CDATA[<p>The home lab. Sounds cool, you should get yourself one ;)</p>
+<p>Here&rsquo;s how I got started quickly and cheaply.</p>
+<h2 id="requirements">Requirements</h2>
+<p>Besides cost and speed, I have a few other requirements and preferences that should help make simplify the process and hopefully make it more useful long-term.</p>
+<p>First, given that I&rsquo;m writing this on my M1 Macbook - with it&rsquo;s <code>arm</code> architecture - it makes sense for me to have a dedicated <code>x86_64</code> machine. Second, I want a stable, widely used, Linux OS meant for servers. One that has a package manager with large selection of packages but also plenty of resources online to help me troubleshoot and learn.</p>
+<p>The answer, Ubuntu Server. Shocker!</p>
+<blockquote>
+<p>Basically whenever I have to make a decision between a few options, the rule-of-thumb is to go with the simple, common solution.</p>
+</blockquote>
+<p>Next, I need to decide what software to run on this home lab. For me, the immediate choice is Kubernetes. I want to learn more about how to manage a Kubernetes cluster without relying on one of the cloud providers to do it for me and this would be a fun opportunity to do so.</p>
+<p>At first, this &ldquo;cluster&rdquo; will consist of one node which means application-specific pods will run on the same node as the control-plane and api server. Definitely not recommended for any serious workload but not a big deal as I get started.</p>
+<p>Some might be asking why not just run multiple nodes on a VM layer. I may still do that but the idea of setting up a Kubernetes cluster on &ldquo;bare-metal&rdquo; sounds kind of cooool. Add a few more CPU nodes and perhaps a few GPUs and the possibility of running AI workloads is just that much closer.</p>
+<p>I&rsquo;m getting a little ahead of myself.</p>
+<h2 id="hardware">Hardware</h2>
+<p>Now to the hardware.</p>
+<blockquote>
+<p>Where I can and if the price is right, I&rsquo;ll go with used/refurbished.</p>
+</blockquote>
+<p>Here at the core components that I ended up purchasing:</p>
+<p> 
+<a href="https://www.amazon.com/dp/B08MMQH98H?psc=1&amp;ref=ppx_yo2ov_dt_b_product_details" target="_blank">Lenovo ThinkCentre M910Q - refurbished</a></p>
+<ul>
+<li>Intel Core i7-6700T</li>
+<li>32GB RAM</li>
+<li>1TB NVMe SSD</li>
+<li>Price: $250</li>
+</ul>
+<p>It came in great condition and with a keyboard and mouse. A bangin&rsquo; deal if you ask me.</p>
+<p> 
+<a href="https://www.amazon.com/dp/B0778Y6K6N?psc=1&amp;ref=ppx_yo2ov_dt_b_product_details" target="_blank">Netgear Powerline Adapter Kit - used</a></p>
+<ul>
+<li>2 Gigabit Ethernet Ports with Passthrough</li>
+<li>Price $56</li>
+</ul>
+<p>This was necessary for me and may not be for you. The modem and router in my apartment are in my roommate&rsquo;s room. So to get ethernet to the home lab, I was able to use these adapters which transmit the ethernet signal over the cooper power cables in the house. This is a cleaner solution than running a long cable through the house.</p>
+<p> 
+<a href="https://www.amazon.com/dp/B00K4DS5KU?psc=1&amp;ref=ppx_yo2ov_dt_b_product_details" target="_blank">TP-Link 8 Port Switch - new, half-off</a></p>
+<ul>
+<li>Price: $27</li>
+</ul>
+<p>Not entirely necessary at this stage but will makes it easy to add additional machines in the future.</p>
+<p>That brings the price of hardware to <strong>$333 + taxes/shipping</strong>. Nice!</p>
+<p>In the process, I will make a few changes to my home office including reorganzing the office closet. Here are a few additional purchases I made to help organize my things a little better:</p>
+<ul>
+<li> 
+<a href="https://www.homedepot.com/p/HDX-4-Tier-Steel-Wire-Shelving-Unit-in-Chrome-36-in-W-x-54-in-H-x-14-in-D-31436PS-1/203846480" target="_blank">A new steel-wire shelving unit - Home Depot</a></li>
+<li> 
+<a href="https://www.homedepot.com/p/NTW-15-ft-Cat6-Snagless-Shielded-STP-Network-Patch-Cable-Yellow-345-S6-015YL/300457291" target="_blank">15ft cat6 cable - Home Depot</a></li>
+<li> 
+<a href="https://www.amazon.com/dp/B07MH6DGMM?psc=1&amp;ref=ppx_yo2ov_dt_b_product_details" target="_blank">Cable tie mounts - Amazon</a></li>
+</ul>
+<p>Luckily I have an old monitor lying around I can used for the initially server setup. Finally with a pair of scissors, a few zip ties and a power strip, I have all that I need to get started.</p>
+<h3 id="hardware-setup">Hardware Setup</h3>
+<p>The setup is straight forward.</p>
+<p>Plug in one Powerline Adapter to outlet near the router and then connect it to the router with an ethernet cable.</p>
+<p align="center">
+<img src="/images/homelab/powerline_adapter.jpg" alt="Powerline Adapter plugged into the outlet directly" width="250">
+</p>
+<p>Plug in the other Powerline Adapter near the home lab and connect it to the switch (yellow cable). Connect the switch to the home lab (black cable).</p>
+<p align="center">
+<img src="/images/homelab/hl_setup_0.jpg" alt="" width="650">
+</p>
+<p>Connect the monitor, keyboard and mouse, then turn on the server.</p>
+<p align="center">
+<img src="/images/homelab/hl_keyboard.jpg" alt="" width="400">
+</p>
+<p>That&rsquo;s it for the hardware setup.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>I&rsquo;m excited to get started with this project. I&rsquo;ve been wanting to do this for a while and I&rsquo;m glad I&rsquo;m finally getting around to it. In the next post, I&rsquo;ll go over the the initial configuration of the server and Kubernetes setup.</p>
+<p><em>Looks over both shoulders</em>&hellip;. I just setup a desktop computer in my office closet and called it a home server.</p>
+]]></content:encoded></item></channel></rss>
