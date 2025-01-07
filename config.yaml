@@ -1,5 +1,5 @@
 baseURL: https://www.eskild.blog
-languageCode:  en-us
+languageCode: en-us
 title: eskild.blog
 
 theme: PaperMod
@@ -50,3 +50,6 @@ params:
   # ShowRssButtonInSectionTermList: true
   # ShowToc: true
   ShowFullTextinRSS: true
+
+  assets:
+    favicon: "/favicon.ico"
