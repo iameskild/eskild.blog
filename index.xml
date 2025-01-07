@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>eskild.blog</title><link>https://www.eskild.blog/</link><description>Recent content on eskild.blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 30 Sep 2024 12:38:07 +0000</lastBuildDate><atom:link href="https://www.eskild.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>The Return to Norway</title><link>https://www.eskild.blog/posts/2024-09-30-norway/</link><pubDate>Mon, 30 Sep 2024 12:38:07 +0000</pubDate><guid>https://www.eskild.blog/posts/2024-09-30-norway/</guid><description>&lt;p align="center">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>eskild.blog</title><link>https://www.eskild.blog/</link><description>Recent content on eskild.blog</description><generator>Hugo -- 0.140.2</generator><language>en-us</language><lastBuildDate>Sun, 05 Jan 2025 22:31:33 -0500</lastBuildDate><atom:link href="https://www.eskild.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>eskild.art: building for the future</title><link>https://www.eskild.blog/posts/2025-01-05-art/</link><pubDate>Sun, 05 Jan 2025 22:31:33 -0500</pubDate><guid>https://www.eskild.blog/posts/2025-01-05-art/</guid><description>&lt;p>&lt;em>Art and AI but not AI-generated art.&lt;/em>&lt;/p>
+&lt;h2 id="updated-tech-stack">Updated Tech Stack&lt;/h2>
+&lt;p>During this recent holiday break, I had some time to work on
+&lt;a href="https://eskild.art" target="_blank">eskild.art&lt;/a>, and I&amp;rsquo;m excited to share those updates here. Although I haven&amp;rsquo;t added any new art (yet), the site has been redesigned from the ground up.&lt;/p>
+&lt;p>The initial version was a FastAPI app on GCP Cloud Run using basic HTML Jinja templates; it was simple but got the job done. The new version is now running
+&lt;a href="https://www.djangoproject.com/" target="_blank">Django&lt;/a> with
+&lt;a href="https://django-tailwind.readthedocs.io/en/latest/index.html" target="_blank">Tailwind CSS&lt;/a> using Postgres deployed on Google&amp;rsquo;s Kubernetes Engine (GKE).&lt;/p></description><content:encoded><![CDATA[<p><em>Art and AI but not AI-generated art.</em></p>
+<h2 id="updated-tech-stack">Updated Tech Stack</h2>
+<p>During this recent holiday break, I had some time to work on  
+<a href="https://eskild.art" target="_blank">eskild.art</a>, and I&rsquo;m excited to share those updates here. Although I haven&rsquo;t added any new art (yet), the site has been redesigned from the ground up.</p>
+<p>The initial version was a FastAPI app on GCP Cloud Run using basic HTML Jinja templates; it was simple but got the job done. The new version is now running  
+<a href="https://www.djangoproject.com/" target="_blank">Django</a> with  
+<a href="https://django-tailwind.readthedocs.io/en/latest/index.html" target="_blank">Tailwind CSS</a> using Postgres deployed on Google&rsquo;s Kubernetes Engine (GKE).</p>
+<p> 
+<a href="https://x.com/dexhorthy/status/856639005462417409" target="_blank">It&rsquo;s certainly amusing</a> to see a basic web app deployed on a compute environment that is literally four orders of magnitude more expensive than the previous environment. That said, I wanted to take this opportunity to brush up on Kubernetes and GCP while leaving room to grow. I chose Django because it has many great features &ldquo;out-of-the-box,&rdquo; such as the admin panel and the ability to add new apps quickly; I resonate with their slogan: &ldquo;The web framework for perfectionists with deadlines.&rdquo;</p>
+<h2 id="coding-with-ai">Coding with AI</h2>
+<p>Going from an empty repo to a live site deployed on GKE in less than three weeks is impressive! It&rsquo;s especially impressive considering this was something I hacked on a few hours here and there as I spent most of my holiday break visiting family and friends. If I&rsquo;m being honest with myself, this is something I don&rsquo;t think I could&rsquo;ve accomplished in this timeframe without the assistance of AI tools like  
+<a href="https://www.cursor.com/" target="_blank">Cursor</a> and  
+<a href="https://chatgpt.com/" target="_blank">ChatGPT</a> (o1). In fact, if I had to guess, I would say that 90-95% of the code was AI-generated.</p>
+<p>While I think tools like these are revolutionizing the software engineering field, I suspect it would&rsquo;ve taken someone without development experience quite a bit longer, mainly because the infrastructure setup and app deployment can be confusing and a bit intimidating. Getting a local Django app up and running was quite easy.</p>
+<p>Cursor is one of the most impressive AI tools out there, but it&rsquo;s certainly not perfect. If you&rsquo;re not paying attention, it will add unnecessary files and duplicate existing functionality. It works best if you have a basic idea of what you&rsquo;re doing.</p>
+<p>In general, as apps become more complex, these AI tools tend to require more guidance and specialized prompting.</p>
+<p>Besides speed-to-market and other business metrics, this experience has me wondering whether security and reliability will be some of the key differentiators going forward.</p>
+<h2 id="wrap-up">Wrap up</h2>
+<p>That&rsquo;s all for now! I hope you enjoy the challenges and the art!</p>
+]]></content:encoded></item><item><title>The Return to Norway</title><link>https://www.eskild.blog/posts/2024-09-30-norway/</link><pubDate>Mon, 30 Sep 2024 12:38:07 +0000</pubDate><guid>https://www.eskild.blog/posts/2024-09-30-norway/</guid><description>&lt;p align="center">
 &lt;img src="https://www.eskild.blog/images/norwegian_coast.jpg" alt="View of Oslofjord, on the Norwegian coast" width="1000">
 &lt;/p>
 &lt;p>Last weekend was the first time in over 16 years that I returned to Norway, my birthplace and the home of my father&amp;rsquo;s side of the family. I don&amp;rsquo;t have any good reason for not returning sooner, and even fewer good reasons since graduating from university.&lt;/p>
@@ -436,7 +461,7 @@
 <p>Thirty years from now, we will likely know how this has played out but until then, prepare for change and try to have fun with it!</p>
 <p><sup>1</sup>
 One possible way that the harnessing of fire might lead to the extinction of life on Earth (a net negative) is via the nuclear bomb, the ultimate expression of fire.</p>
-]]></content:encoded></item><item><title>eskild.art</title><link>https://www.eskild.blog/posts/2023-07-30-art/</link><pubDate>Sun, 30 Jul 2023 21:44:57 -0700</pubDate><guid>https://www.eskild.blog/posts/2023-07-30-art/</guid><description>&lt;p>
+]]></content:encoded></item><item><title>eskild.art is live</title><link>https://www.eskild.blog/posts/2023-07-30-art/</link><pubDate>Sun, 30 Jul 2023 21:44:57 -0700</pubDate><guid>https://www.eskild.blog/posts/2023-07-30-art/</guid><description>&lt;p>
 &lt;a href="https://eskild.art" target="_blank">eskild.art&lt;/a> is now live!&lt;/p>
 &lt;p>I have plenty of ideas on what this might morph into but for now, it&amp;rsquo;s simply a gallery.
 Can you solve the riddle to view the image?&lt;/p></description><content:encoded><![CDATA[<p> 
