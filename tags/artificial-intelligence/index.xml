@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Artificial Intelligence on eskild.blog</title><link>https://www.eskild.blog/tags/artificial-intelligence/</link><description>Recent content in Artificial Intelligence on eskild.blog</description><generator>Hugo -- 0.140.2</generator><language>en-us</language><lastBuildDate>Sun, 05 Jan 2025 22:31:33 -0500</lastBuildDate><atom:link href="https://www.eskild.blog/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml"/><item><title>eskild.art: building for the future</title><link>https://www.eskild.blog/posts/2025-01-05-art/</link><pubDate>Sun, 05 Jan 2025 22:31:33 -0500</pubDate><guid>https://www.eskild.blog/posts/2025-01-05-art/</guid><description>&lt;p>&lt;em>Art and AI but not AI-generated art.&lt;/em>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Artificial Intelligence on eskild.blog</title><link>https://www.eskild.blog/tags/artificial-intelligence/</link><description>Recent content in Artificial Intelligence on eskild.blog</description><generator>Hugo -- 0.141.0</generator><language>en-us</language><lastBuildDate>Sun, 05 Jan 2025 22:31:33 -0500</lastBuildDate><atom:link href="https://www.eskild.blog/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml"/><item><title>eskild.art: building for the future</title><link>https://www.eskild.blog/posts/2025-01-05-art/</link><pubDate>Sun, 05 Jan 2025 22:31:33 -0500</pubDate><guid>https://www.eskild.blog/posts/2025-01-05-art/</guid><description>&lt;p>&lt;em>Art and AI but not AI-generated art.&lt;/em>&lt;/p>
 &lt;h2 id="updated-tech-stack">Updated Tech Stack&lt;/h2>
 &lt;p>During this recent holiday break, I had some time to work on
 &lt;a href="https://eskild.art" target="_blank">eskild.art&lt;/a>, and I&amp;rsquo;m excited to share those updates here. Although I haven&amp;rsquo;t added any new art (yet), the site has been redesigned from the ground up.&lt;/p>
@@ -12,15 +12,18 @@
 <a href="https://www.djangoproject.com/" target="_blank">Django</a> with  
 <a href="https://django-tailwind.readthedocs.io/en/latest/index.html" target="_blank">Tailwind CSS</a> using Postgres deployed on Google&rsquo;s Kubernetes Engine (GKE).</p>
 <p> 
-<a href="https://x.com/dexhorthy/status/856639005462417409" target="_blank">It&rsquo;s certainly amusing</a> to see a basic web app deployed on a compute environment that is literally four orders of magnitude more expensive than the previous environment. That said, I wanted to take this opportunity to brush up on Kubernetes and GCP while leaving room to grow. I chose Django because it has many great features &ldquo;out-of-the-box,&rdquo; such as the admin panel and the ability to add new apps quickly; I resonate with their slogan: &ldquo;The web framework for perfectionists with deadlines.&rdquo;</p>
+<a href="https://x.com/dexhorthy/status/856639005462417409" target="_blank">It&rsquo;s certainly amusing</a> to see a basic web app deployed on a compute environment which is orders of magnitude more expensive than the previous environment. However, I wanted to take this opportunity to brush up on Kubernetes and GCP while leaving room to growth. Who knows, maybe one day I&rsquo;ll deploying it on the Kubernetes cluster running on my  
+<a href="https://eskild.blog/posts/2024-08-27-hl0/" target="_blank">homelab</a> ;)</p>
+<p>I chose Django because it has many great features &ldquo;out-of-the-box,&rdquo; such as the admin panel and because I resonate with their slogan: &ldquo;The web framework for perfectionists with deadlines.&rdquo;</p>
 <h2 id="coding-with-ai">Coding with AI</h2>
-<p>Going from an empty repo to a live site deployed on GKE in less than three weeks is impressive! It&rsquo;s especially impressive considering this was something I hacked on a few hours here and there as I spent most of my holiday break visiting family and friends. If I&rsquo;m being honest with myself, this is something I don&rsquo;t think I could&rsquo;ve accomplished in this timeframe without the assistance of AI tools like  
+<p>Going from an empty repo to a simple site deployed on GKE in less than three weeks is moderately impressive. That said, considering this was something I hacked on a few hours here and there, I quite pleased.</p>
+<p>If I&rsquo;m being honest with myself, this is something I don&rsquo;t think I could&rsquo;ve accomplished in this timeframe without the assistance of AI tools like  
 <a href="https://www.cursor.com/" target="_blank">Cursor</a> and  
-<a href="https://chatgpt.com/" target="_blank">ChatGPT</a> (o1). In fact, if I had to guess, I would say that 90-95% of the code was AI-generated.</p>
-<p>While I think tools like these are revolutionizing the software engineering field, I suspect it would&rsquo;ve taken someone without development experience quite a bit longer, mainly because the infrastructure setup and app deployment can be confusing and a bit intimidating. Getting a local Django app up and running was quite easy.</p>
-<p>Cursor is one of the most impressive AI tools out there, but it&rsquo;s certainly not perfect. If you&rsquo;re not paying attention, it will add unnecessary files and duplicate existing functionality. It works best if you have a basic idea of what you&rsquo;re doing.</p>
-<p>In general, as apps become more complex, these AI tools tend to require more guidance and specialized prompting.</p>
-<p>Besides speed-to-market and other business metrics, this experience has me wondering whether security and reliability will be some of the key differentiators going forward.</p>
+<a href="https://chatgpt.com/" target="_blank">ChatGPT</a> (o1). In fact, if I had to guess, I would say that about 90% of the code was AI-generated.</p>
+<p>While I think tools like these are revolutionizing the software engineering field, I suspect it would&rsquo;ve taken someone without development experience quite a bit longer, mainly because the infrastructure setup and app deployment can be confusing and a bit intimidating. Getting a local Django app up and running was the easy part.</p>
+<p>Cursor is one of the most impressive AI tools out there, but it&rsquo;s certainly not perfect. If you&rsquo;re not paying attention, it will add unnecessary files and duplicate existing functionality; hallucinations (or rather confabulations) are problems I don&rsquo;t see getting fully resolved anytime soon.</p>
+<p>In general, these tools works best if you have a basic idea of what you&rsquo;re doing. And as the codebase become more complex, these AI tools tend to require more guidance and specialized prompting.</p>
+<p>Besides speed-to-market and other business metrics, this experience has me wondering whether security and reliability will be some of the key differentiators going forward. We will likely see a lot more apps deployed by non-developers in the coming years but I suspect once their app start gaining traction, professional developers will come in and ensure the site can scale, is reliable and adheres to security best practices.</p>
 <h2 id="wrap-up">Wrap up</h2>
 <p>That&rsquo;s all for now! I hope you enjoy the challenges and the art!</p>
 ]]></content:encoded></item><item><title>EAGxBerkeley: Thoughts and Reflections</title><link>https://www.eskild.blog/posts/2024-09-12-eagxb24/</link><pubDate>Thu, 12 Sep 2024 23:43:27 -0700</pubDate><guid>https://www.eskild.blog/posts/2024-09-12-eagxb24/</guid><description>&lt;p align="center">
@@ -47,15 +50,16 @@
 <p>At a high-level, I would rate this among the most entertaining and worthwhile conferences I&rsquo;ve attended; it was also hosted at one of the most unique venues I&rsquo;ve been to, the  
 <a href="https://www.lighthaven.space/" target="_blank">Lighthaven</a>. The event organizers and volunteers deserve another round of applause for all of their great work!</p>
 <p>My goal for the conference was mostly to network and to learn from other&rsquo;s how to best organize and run a local EA group, in my case  
-<a href="https://effectivealtruismla.org/" target="_blank">EA Los Angeles</a>. On both of these fronts, I would say the conference was a huge successful for me personally. Between the talks, the one-on-ones and the after-parties, I returned to my friend&rsquo;s place each evening bubbling with energy and eager to &ldquo;get to work&rdquo;!</p>
-<p>To the specifics. I&rsquo;ve had a few days to organize my notes and wanted to share a few takeaways (in no particular order):</p>
+<a href="https://effectivealtruismla.org/" target="_blank">EA Los Angeles</a>. On both of these fronts, I would say the conference was a huge success. Between the talks, the one-on-ones and the after-parties, I returned to my friend&rsquo;s place each evening bubbling with energy and eager to &ldquo;get to work&rdquo;!</p>
+<h2 id="takeaways">Takeaways</h2>
+<p>I&rsquo;ve had a few days to organize my notes and wanted to share a few takeaways (in no particular order):</p>
 <ul>
 <li>While there has been impressive progress in the past couple of years, cultivated meat still appears many years away from going &ldquo;mainstream&rdquo;.
 <ul>
 <li>I still believe supply-side interventions (real cultivated meat at a comparable price point) is the most promising path to ending or dramatically reducing factory farming.</li>
 </ul>
 </li>
-<li>AI safety / security, as a field or subfield, will only continue to receive more and moreattention.ChatGPT 1o (Strawberry) was released today.
+<li>AI safety / security, as a field or subfield, will only continue to receive more and more attention. ChatGPT o1 was released today for some additional context.
 <ul>
 <li>My guess is that over half of the attendees were there solely, or at least primarily, for AI safety.</li>
 <li>This fields also seems to attract a lot of young, talented individuals, particularly from mathematics and computer-science backgrounds.</li>
@@ -84,7 +88,7 @@
 </ul>
 </li>
 </ul>
-<p>This list far from comprehensive but hopefully highlights a few of the ideas and <em>vibes</em> that I picked up at the conferences. There were a lot talks going on at the conference I wasn&rsquo;t able to attend but looking forward to catching when they are posted.</p>
+<p>This list far from comprehensive but hopefully highlights a few of the ideas and <em>vibes</em> that I picked up at the conferences. There were many talks I was unfortunately unable to attend but I look forward to catching when they are posted on YouTube.</p>
 <p>This conference was a wonderful showing for the community, and community is nothing more than people hanging out and enjoying each other&rsquo;s company! It&rsquo;s even more encouraging to be part of a community that is genuinely focused on making the world a better place.</p>
 ]]></content:encoded></item><item><title>What's your humor setting Co-Pilot?</title><link>https://www.eskild.blog/posts/2023-12-09-rr/</link><pubDate>Sat, 09 Dec 2023 17:00:17 +0700</pubDate><guid>https://www.eskild.blog/posts/2023-12-09-rr/</guid><description>&lt;img src="https://www.eskild.blog/images/copilot_humor_setting.jpg" alt="Meme from interstellar" width="1000">
 &lt;p>As it currently stands, I pay for two AI services,

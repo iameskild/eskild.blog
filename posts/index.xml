@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on eskild.blog</title><link>https://www.eskild.blog/posts/</link><description>Recent content in Posts on eskild.blog</description><generator>Hugo -- 0.140.2</generator><language>en-us</language><lastBuildDate>Sun, 05 Jan 2025 22:31:33 -0500</lastBuildDate><atom:link href="https://www.eskild.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>eskild.art: building for the future</title><link>https://www.eskild.blog/posts/2025-01-05-art/</link><pubDate>Sun, 05 Jan 2025 22:31:33 -0500</pubDate><guid>https://www.eskild.blog/posts/2025-01-05-art/</guid><description>&lt;p>&lt;em>Art and AI but not AI-generated art.&lt;/em>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on eskild.blog</title><link>https://www.eskild.blog/posts/</link><description>Recent content in Posts on eskild.blog</description><generator>Hugo -- 0.141.0</generator><language>en-us</language><lastBuildDate>Sun, 05 Jan 2025 22:31:33 -0500</lastBuildDate><atom:link href="https://www.eskild.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>eskild.art: building for the future</title><link>https://www.eskild.blog/posts/2025-01-05-art/</link><pubDate>Sun, 05 Jan 2025 22:31:33 -0500</pubDate><guid>https://www.eskild.blog/posts/2025-01-05-art/</guid><description>&lt;p>&lt;em>Art and AI but not AI-generated art.&lt;/em>&lt;/p>
 &lt;h2 id="updated-tech-stack">Updated Tech Stack&lt;/h2>
 &lt;p>During this recent holiday break, I had some time to work on
 &lt;a href="https://eskild.art" target="_blank">eskild.art&lt;/a>, and I&amp;rsquo;m excited to share those updates here. Although I haven&amp;rsquo;t added any new art (yet), the site has been redesigned from the ground up.&lt;/p>
@@ -12,15 +12,18 @@
 <a href="https://www.djangoproject.com/" target="_blank">Django</a> with  
 <a href="https://django-tailwind.readthedocs.io/en/latest/index.html" target="_blank">Tailwind CSS</a> using Postgres deployed on Google&rsquo;s Kubernetes Engine (GKE).</p>
 <p> 
-<a href="https://x.com/dexhorthy/status/856639005462417409" target="_blank">It&rsquo;s certainly amusing</a> to see a basic web app deployed on a compute environment that is literally four orders of magnitude more expensive than the previous environment. That said, I wanted to take this opportunity to brush up on Kubernetes and GCP while leaving room to grow. I chose Django because it has many great features &ldquo;out-of-the-box,&rdquo; such as the admin panel and the ability to add new apps quickly; I resonate with their slogan: &ldquo;The web framework for perfectionists with deadlines.&rdquo;</p>
+<a href="https://x.com/dexhorthy/status/856639005462417409" target="_blank">It&rsquo;s certainly amusing</a> to see a basic web app deployed on a compute environment which is orders of magnitude more expensive than the previous environment. However, I wanted to take this opportunity to brush up on Kubernetes and GCP while leaving room to growth. Who knows, maybe one day I&rsquo;ll deploying it on the Kubernetes cluster running on my  
+<a href="https://eskild.blog/posts/2024-08-27-hl0/" target="_blank">homelab</a> ;)</p>
+<p>I chose Django because it has many great features &ldquo;out-of-the-box,&rdquo; such as the admin panel and because I resonate with their slogan: &ldquo;The web framework for perfectionists with deadlines.&rdquo;</p>
 <h2 id="coding-with-ai">Coding with AI</h2>
-<p>Going from an empty repo to a live site deployed on GKE in less than three weeks is impressive! It&rsquo;s especially impressive considering this was something I hacked on a few hours here and there as I spent most of my holiday break visiting family and friends. If I&rsquo;m being honest with myself, this is something I don&rsquo;t think I could&rsquo;ve accomplished in this timeframe without the assistance of AI tools like  
+<p>Going from an empty repo to a simple site deployed on GKE in less than three weeks is moderately impressive. That said, considering this was something I hacked on a few hours here and there, I quite pleased.</p>
+<p>If I&rsquo;m being honest with myself, this is something I don&rsquo;t think I could&rsquo;ve accomplished in this timeframe without the assistance of AI tools like  
 <a href="https://www.cursor.com/" target="_blank">Cursor</a> and  
-<a href="https://chatgpt.com/" target="_blank">ChatGPT</a> (o1). In fact, if I had to guess, I would say that 90-95% of the code was AI-generated.</p>
-<p>While I think tools like these are revolutionizing the software engineering field, I suspect it would&rsquo;ve taken someone without development experience quite a bit longer, mainly because the infrastructure setup and app deployment can be confusing and a bit intimidating. Getting a local Django app up and running was quite easy.</p>
-<p>Cursor is one of the most impressive AI tools out there, but it&rsquo;s certainly not perfect. If you&rsquo;re not paying attention, it will add unnecessary files and duplicate existing functionality. It works best if you have a basic idea of what you&rsquo;re doing.</p>
-<p>In general, as apps become more complex, these AI tools tend to require more guidance and specialized prompting.</p>
-<p>Besides speed-to-market and other business metrics, this experience has me wondering whether security and reliability will be some of the key differentiators going forward.</p>
+<a href="https://chatgpt.com/" target="_blank">ChatGPT</a> (o1). In fact, if I had to guess, I would say that about 90% of the code was AI-generated.</p>
+<p>While I think tools like these are revolutionizing the software engineering field, I suspect it would&rsquo;ve taken someone without development experience quite a bit longer, mainly because the infrastructure setup and app deployment can be confusing and a bit intimidating. Getting a local Django app up and running was the easy part.</p>
+<p>Cursor is one of the most impressive AI tools out there, but it&rsquo;s certainly not perfect. If you&rsquo;re not paying attention, it will add unnecessary files and duplicate existing functionality; hallucinations (or rather confabulations) are problems I don&rsquo;t see getting fully resolved anytime soon.</p>
+<p>In general, these tools works best if you have a basic idea of what you&rsquo;re doing. And as the codebase become more complex, these AI tools tend to require more guidance and specialized prompting.</p>
+<p>Besides speed-to-market and other business metrics, this experience has me wondering whether security and reliability will be some of the key differentiators going forward. We will likely see a lot more apps deployed by non-developers in the coming years but I suspect once their app start gaining traction, professional developers will come in and ensure the site can scale, is reliable and adheres to security best practices.</p>
 <h2 id="wrap-up">Wrap up</h2>
 <p>That&rsquo;s all for now! I hope you enjoy the challenges and the art!</p>
 ]]></content:encoded></item><item><title>The Return to Norway</title><link>https://www.eskild.blog/posts/2024-09-30-norway/</link><pubDate>Mon, 30 Sep 2024 12:38:07 +0000</pubDate><guid>https://www.eskild.blog/posts/2024-09-30-norway/</guid><description>&lt;p align="center">
@@ -32,21 +35,21 @@
 </p>
 <p>Last weekend was the first time in over 16 years that I returned to Norway, my birthplace and the home of my father&rsquo;s side of the family. I don&rsquo;t have any good reason for not returning sooner, and even fewer good reasons since graduating from university.</p>
 <p>As I prepared for the visit and reached out to family and old friends, I felt this internal resistance and sense of fear. But what was there to be scared of?</p>
-<p>It ultimately took talking it out with a few friends and writing this post before I recognized that it was partially, if not mostly, centered around personal identity.</p>
+<p>It took talking it out with a few friends and writing this post before I recognized that it was partially, if not mostly, centered around personal identity.</p>
 <p>What one identifies with is quite personal but generally not all that mysterious. Most of us identify with the culture in which we were raised. This includes preferring the culture&rsquo;s food, speaking the shared language, celebrating the culture&rsquo;s important holidays—shallow cultural markers—and embracing and investing in the culture&rsquo;s religion and core values—deep cultural markers.</p>
-<p>As much as I enjoy Norwegian food, as a vegan<sup>1</sup>, I can&rsquo;t consume the vast majority of it. And although Norwegian was my first language, after the age of thirteen, I hardly ever spoke it again and my ability to speak it has atrophied since to an embarrassing degree.</p>
+<p>As much as I enjoy Norwegian food, as a vegan<sup>1</sup>, I can&rsquo;t consume the vast majority of it. And although Norwegian was my first language, after the age of thirteen, I hardly ever spoke it again and my ability to speak it has since atrophied to an embarrassing degree.</p>
 <p>When I returned to Norway, my implicit rejection of the shallow cultural values made it obvious to me, and surely to my family and friends, that I was not as &ldquo;Norwegian&rdquo; as my passport or my name might suggest. Or as &ldquo;Norwegian&rdquo; as I used to be.</p>
 <p>I was scared that I would be rejected or made to feel like an outsider. Whether this was a legitimate fear or not is beside the point; speaking to one&rsquo;s family in English instead of our native Norwegian is (and was) a little uncomfortable.</p>
 <p>Ultimately, none of these fears came to pass, and I was welcomed home with open arms!</p>
 <p>Now that I&rsquo;ve had a few days to let the experience sink in, what did I learn, where does this leave me?</p>
-<p>First, learn from my mistakes, and don&rsquo;t let fear or discomfort stop you from rekindling old relationships<sup>2</sup>. I had plans to visit my sick grandma in Norway in 2015, only a mere seven years since my last visit, but by the time I finished my university quarter, it was too late, and she had passed away. I never had a chance to say goodbye.</p>
+<p>First, learn from my mistake, and don&rsquo;t let fear or discomfort stop you from rekindling old relationships<sup>2</sup>. I had plans to visit my sick grandma in Norway in 2015, but by the time I finished my university quarter, it was too late, and she had passed away. I never had a chance to say goodbye.</p>
 <p>I don&rsquo;t want any more such experiences. Sit with the discomfort of being reacquainted for but a moment, it&rsquo;s worth it.</p>
 <p>Second, Paul Graham wrote an essay in 2009 titled  
 <a href="https://www.paulgraham.com/identity.html" target="_blank">&ldquo;Keep your identity small&rdquo;</a>, and I think about this essay quite often. For me, keeping my identity small means avoiding the trap of reflexively defending bad ideas or harmful practices because I identify with the group or individuals who promote them.</p>
 <p>Norway—like all other countries and cultures—has many wonderful features, but I strive to evaluate each one as impartially as I can. Admittedly, this is a lot easier said than done, but it is also worth it.</p>
 <p>And third, shallow cultural markers are usually a lot more visible and therefore get more attention. Deep cultural markers on the other hand, are much more difficult to explicitly express, at least not without some expensive commitment.</p>
-<p>Have I made any expensive commitments that express a marker of some deeper value? Should I? And in which direction?</p>
-<p>These are questions I&rsquo;m trying to answer but I believe it has something to do with having the courage to be an individual while remembering to that deep integration with family, friends, and the broadest possible circle of living creatures, is where the magic truly lies.</p>
+<p>Have I made any commitments that are an expression of some deeper values? Shouldn&rsquo;t I? And in which direction?</p>
+<p>These are questions I&rsquo;m wresting with but I believe the answer lies somewhere between having the courage to be an individual while remembering that deep integration with family, friends, and the natural world, is where the magic truly lies.</p>
 <hr>
 <p><sup>1</sup> I care for the animals but reject &ldquo;vegan&rdquo; as an identity, for reasons outlined below.</p>
 <p><sup>2</sup> Not all relationships are worth rekindling, but I would guess many more are than are not.</p>
@@ -74,15 +77,16 @@
 <p>At a high-level, I would rate this among the most entertaining and worthwhile conferences I&rsquo;ve attended; it was also hosted at one of the most unique venues I&rsquo;ve been to, the  
 <a href="https://www.lighthaven.space/" target="_blank">Lighthaven</a>. The event organizers and volunteers deserve another round of applause for all of their great work!</p>
 <p>My goal for the conference was mostly to network and to learn from other&rsquo;s how to best organize and run a local EA group, in my case  
-<a href="https://effectivealtruismla.org/" target="_blank">EA Los Angeles</a>. On both of these fronts, I would say the conference was a huge successful for me personally. Between the talks, the one-on-ones and the after-parties, I returned to my friend&rsquo;s place each evening bubbling with energy and eager to &ldquo;get to work&rdquo;!</p>
-<p>To the specifics. I&rsquo;ve had a few days to organize my notes and wanted to share a few takeaways (in no particular order):</p>
+<a href="https://effectivealtruismla.org/" target="_blank">EA Los Angeles</a>. On both of these fronts, I would say the conference was a huge success. Between the talks, the one-on-ones and the after-parties, I returned to my friend&rsquo;s place each evening bubbling with energy and eager to &ldquo;get to work&rdquo;!</p>
+<h2 id="takeaways">Takeaways</h2>
+<p>I&rsquo;ve had a few days to organize my notes and wanted to share a few takeaways (in no particular order):</p>
 <ul>
 <li>While there has been impressive progress in the past couple of years, cultivated meat still appears many years away from going &ldquo;mainstream&rdquo;.
 <ul>
 <li>I still believe supply-side interventions (real cultivated meat at a comparable price point) is the most promising path to ending or dramatically reducing factory farming.</li>
 </ul>
 </li>
-<li>AI safety / security, as a field or subfield, will only continue to receive more and moreattention.ChatGPT 1o (Strawberry) was released today.
+<li>AI safety / security, as a field or subfield, will only continue to receive more and more attention. ChatGPT o1 was released today for some additional context.
 <ul>
 <li>My guess is that over half of the attendees were there solely, or at least primarily, for AI safety.</li>
 <li>This fields also seems to attract a lot of young, talented individuals, particularly from mathematics and computer-science backgrounds.</li>
@@ -111,17 +115,17 @@
 </ul>
 </li>
 </ul>
-<p>This list far from comprehensive but hopefully highlights a few of the ideas and <em>vibes</em> that I picked up at the conferences. There were a lot talks going on at the conference I wasn&rsquo;t able to attend but looking forward to catching when they are posted.</p>
+<p>This list far from comprehensive but hopefully highlights a few of the ideas and <em>vibes</em> that I picked up at the conferences. There were many talks I was unfortunately unable to attend but I look forward to catching when they are posted on YouTube.</p>
 <p>This conference was a wonderful showing for the community, and community is nothing more than people hanging out and enjoying each other&rsquo;s company! It&rsquo;s even more encouraging to be part of a community that is genuinely focused on making the world a better place.</p>
 ]]></content:encoded></item><item><title>In the beginning, there was hardware</title><link>https://www.eskild.blog/posts/2024-08-27-hl0/</link><pubDate>Tue, 27 Aug 2024 22:15:22 -0700</pubDate><guid>https://www.eskild.blog/posts/2024-08-27-hl0/</guid><description>&lt;p>The home lab. Sounds cool, you should get yourself one ;)&lt;/p>
 &lt;p>Here&amp;rsquo;s how I got started quickly and cheaply.&lt;/p>
 &lt;h2 id="requirements">Requirements&lt;/h2>
-&lt;p>Besides cost and speed, I have a few other requirements and preferences that should help make simplify the process and hopefully make it more useful long-term.&lt;/p>
-&lt;p>First, given that I&amp;rsquo;m writing this on my M1 Macbook - with it&amp;rsquo;s &lt;code>arm&lt;/code> architecture - it makes sense for me to have a dedicated &lt;code>x86_64&lt;/code> machine. Second, I want a stable, widely used, Linux OS meant for servers. One that has a package manager with large selection of packages but also plenty of resources online to help me troubleshoot and learn.&lt;/p></description><content:encoded><![CDATA[<p>The home lab. Sounds cool, you should get yourself one ;)</p>
+&lt;p>Besides cost and speed, I have a few other requirements and preferences that should help simplify the process and hopefully make it more useful long-term.&lt;/p>
+&lt;p>First, given that I&amp;rsquo;m writing this on my M1 Macbook - with it&amp;rsquo;s &lt;code>arm&lt;/code> chip - it makes sense for me to have a dedicated &lt;code>x86_64&lt;/code> machine. Second, I want a stable, widely used, Linux OS meant for servers. One that has a package manager with large selection of packages but also plenty of resources online to help me troubleshoot and learn.&lt;/p></description><content:encoded><![CDATA[<p>The home lab. Sounds cool, you should get yourself one ;)</p>
 <p>Here&rsquo;s how I got started quickly and cheaply.</p>
 <h2 id="requirements">Requirements</h2>
-<p>Besides cost and speed, I have a few other requirements and preferences that should help make simplify the process and hopefully make it more useful long-term.</p>
-<p>First, given that I&rsquo;m writing this on my M1 Macbook - with it&rsquo;s <code>arm</code> architecture - it makes sense for me to have a dedicated <code>x86_64</code> machine. Second, I want a stable, widely used, Linux OS meant for servers. One that has a package manager with large selection of packages but also plenty of resources online to help me troubleshoot and learn.</p>
+<p>Besides cost and speed, I have a few other requirements and preferences that should help simplify the process and hopefully make it more useful long-term.</p>
+<p>First, given that I&rsquo;m writing this on my M1 Macbook - with it&rsquo;s <code>arm</code> chip - it makes sense for me to have a dedicated <code>x86_64</code> machine. Second, I want a stable, widely used, Linux OS meant for servers. One that has a package manager with large selection of packages but also plenty of resources online to help me troubleshoot and learn.</p>
 <p>The answer, Ubuntu Server. Shocker!</p>
 <blockquote>
 <p>Basically whenever I have to make a decision between a few options, the rule-of-thumb is to go with the simple, common solution.</p>
@@ -144,7 +148,7 @@
 <li>1TB NVMe SSD</li>
 <li>Price: $250</li>
 </ul>
-<p>It came in great condition and with a keyboard and mouse. A bangin&rsquo; deal if you ask me.</p>
+<p>It came in great condition and with a keyboard and mouse. A bangin&rsquo; deal if you ask me!</p>
 <p> 
 <a href="https://www.amazon.com/dp/B0778Y6K6N?psc=1&amp;ref=ppx_yo2ov_dt_b_product_details" target="_blank">Netgear Powerline Adapter Kit - used</a></p>
 <ul>
@@ -168,7 +172,7 @@
 <li> 
 <a href="https://www.amazon.com/dp/B07MH6DGMM?psc=1&amp;ref=ppx_yo2ov_dt_b_product_details" target="_blank">Cable tie mounts - Amazon</a></li>
 </ul>
-<p>Luckily I have an old monitor lying around I can used for the initially server setup. Finally with a pair of scissors, a few zip ties and a power strip, I have all that I need to get started.</p>
+<p>Luckily I had an old monitor lying around I used for the initially server setup. Finally with a pair of scissors, a few zip ties and a power strip, I have all that I need to get started.</p>
 <h3 id="hardware-setup">Hardware Setup</h3>
 <p>The setup is straight forward.</p>
 <p>Plug in one Powerline Adapter to outlet near the router and then connect it to the router with an ethernet cable.</p>
@@ -185,7 +189,7 @@
 </p>
 <p>That&rsquo;s it for the hardware setup.</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>I&rsquo;m excited to get started with this project. I&rsquo;ve been wanting to do this for a while and I&rsquo;m glad I&rsquo;m finally getting around to it. In the next post, I&rsquo;ll go over the the initial configuration of the server and Kubernetes setup.</p>
+<p>I&rsquo;m excited to get started with this project. I&rsquo;ve been wanting to do this for a while and I&rsquo;m glad I&rsquo;m finally getting around to it. In another post, I&rsquo;ll go over the the initial configuration of the server and Kubernetes setup.</p>
 <p><em>Looks over both shoulders</em>&hellip;. I just setup a desktop computer in my office closet and called it a home server.</p>
 ]]></content:encoded></item><item><title>Jumping off cliffs</title><link>https://www.eskild.blog/posts/2024-06-02-cliffs/</link><pubDate>Sun, 02 Jun 2024 01:00:36 -0700</pubDate><guid>https://www.eskild.blog/posts/2024-06-02-cliffs/</guid><description>&lt;p align="center">
 &lt;img src="https://www.eskild.blog/images/grand_canyon.jpg" alt="Grand Canyon (1924) by Gunnar Mauritz Widforss" width="1000">
@@ -195,7 +199,7 @@
 &lt;p>We have to continually be jumping off cliffs and developing our wings on the way down.&lt;/p>
 &lt;/blockquote>
 &lt;p>This quote by
-&lt;a href="https://en.wikipedia.org/wiki/Kurt_Vonnegut" target="_blank">Kurt Vonnegut&lt;/a> has been on my mind since I encountered it about a month ago. Good quotes can capture a truth about the world with an elegant and poetic phrase, always making you wish you had come up with it yourself. The difficulty in trying to describe certain truths is that they cannot, by their very nature, be expressed in language.&lt;/p></description><content:encoded><![CDATA[<p align="center">
+&lt;a href="https://en.wikipedia.org/wiki/Kurt_Vonnegut" target="_blank">Kurt Vonnegut&lt;/a> has been on my mind since I encountered it about a month ago. Good quotes can capture a truth about the world in an elegant and poetic ways, always making you wish you had come up with it yourself. The difficulty in trying to describe certain truths is that they cannot, by their very nature, be expressed in language.&lt;/p></description><content:encoded><![CDATA[<p align="center">
 <img src="/images/grand_canyon.jpg" alt="Grand Canyon (1924) by Gunnar Mauritz Widforss" width="1000">
 <a href="https://artvee.com/dl/grand-canyon#00">Grand Canyon (1924) by Gunnar Mauritz Widforss</a>
 </p>
@@ -203,7 +207,7 @@
 <p>We have to continually be jumping off cliffs and developing our wings on the way down.</p>
 </blockquote>
 <p>This quote by  
-<a href="https://en.wikipedia.org/wiki/Kurt_Vonnegut" target="_blank">Kurt Vonnegut</a> has been on my mind since I encountered it about a month ago. Good quotes can capture a truth about the world with an elegant and poetic phrase, always making you wish you had come up with it yourself. The difficulty in trying to describe certain truths is that they cannot, by their very nature, be expressed in language.</p>
+<a href="https://en.wikipedia.org/wiki/Kurt_Vonnegut" target="_blank">Kurt Vonnegut</a> has been on my mind since I encountered it about a month ago. Good quotes can capture a truth about the world in an elegant and poetic ways, always making you wish you had come up with it yourself. The difficulty in trying to describe certain truths is that they cannot, by their very nature, be expressed in language.</p>
 <p>So what truth does this quote gesture at? Why must we continually jump? And how does one develop wings?</p>
 <p>In my own way of gesturing at these underlying ideas, I will reflect on a few other quotes.</p>
 <p>From <em> 
@@ -212,7 +216,7 @@
 <blockquote>
 <p>Strangely, every person always lives out their destiny no matter what they do, according to the way they shape the conversation&hellip; [our destiny&rsquo;s] promise may depend upon a brave participation, a willingness to hazard ourselves in a difficult world, a certain form of wild generosity with our gifts;&hellip;</p>
 </blockquote>
-<p>Our experience of life &ldquo;may depend upon a brave participation&rdquo;—the courage to admit ignorance while striving to eliminate it, the courage to say &ldquo;I love you&rdquo; even if you&rsquo;re unsure you&rsquo;ll hear it repeated back to you, and the courage to look like a fool while you&rsquo;re improving your trade.</p>
+<p>Our experience of life &ldquo;may depend upon a brave participation&rdquo; — the courage to admit ignorance while striving to eliminate it, the courage to say &ldquo;I love you&rdquo; even if you&rsquo;re unsure you&rsquo;ll hear it repeated back to you, and the courage to look like a fool while you&rsquo;re improving your trade.</p>
 <p align="center">
 <img src="/images/the_gust.jpg" alt="A Ship on the High Seas Caught by a Squall, Known as ‘The Gust’ (c. 1680) " height="650">
 <a href="https://artvee.com/dl/a-ship-on-the-high-seas-caught-by-a-squall-known-as-the-gust/">The Gust (c. 1680) by Willem van de Velde the Younger</a>
@@ -229,7 +233,7 @@
 <blockquote>
 <p>You miss 100% of the shots you don&rsquo;t take.</p>
 </blockquote>
-<p>You develop into a shooter by taking shots; there is no other way. This understanding unlocks a certain freedom; to grow, one needs to be challenged, and ultimately, it&rsquo;s not personal.</p>
+<p>You develop into a shooter by taking shots. There is no other way. This understanding unlocks a certain freedom; to grow, one needs to be challenged, and ultimately, it&rsquo;s not personal.</p>
 <p align="center">
 <img src="/images/laundress.jpg" alt="The Laundress (1863) by Honoré Daumier" height="650">
 <a href="https://artvee.com/dl/the-laundress-6/#00">The Laundress (1863) by Honoré Daumier</a>
@@ -239,7 +243,7 @@
 <a href="https://www.mercatus.org/scholars/dean-ball" target="_blank">Dean W. Ball</a> on <em> 
 <a href="https://www.hyperdimensional.co/p/on-ai-alignment-and-superalignment" target="_blank">Hyperdimensional</a></em>:</p>
 <blockquote>
-<p>We do not know the answer, and it doubtful that there is such a thing as &ldquo;an answer&rdquo; to problems of this kind. It is not just that finding the answer will be a process. The answer <em>will be</em> the process.</p>
+<p>We do not know the answer, and it doubtful that there is such a thing as &ldquo;an answer&rdquo; to problems of this kind [AI safety]. It is not just that finding the answer will be a process. The answer <em>will be</em> the process.</p>
 </blockquote>
 <p>Essential processes that don&rsquo;t evolve to survive in the new environment die. Adaptability is, has, and will likely always be an important ingredient for success. To be good at adaptation, you need to continually adapt.</p>
 <p>And from  
@@ -461,7 +465,7 @@
 <p>Thirty years from now, we will likely know how this has played out but until then, prepare for change and try to have fun with it!</p>
 <p><sup>1</sup>
 One possible way that the harnessing of fire might lead to the extinction of life on Earth (a net negative) is via the nuclear bomb, the ultimate expression of fire.</p>
-]]></content:encoded></item><item><title>eskild.art is live</title><link>https://www.eskild.blog/posts/2023-07-30-art/</link><pubDate>Sun, 30 Jul 2023 21:44:57 -0700</pubDate><guid>https://www.eskild.blog/posts/2023-07-30-art/</guid><description>&lt;p>
+]]></content:encoded></item><item><title>eskild.art: going live</title><link>https://www.eskild.blog/posts/2023-07-30-art/</link><pubDate>Sun, 30 Jul 2023 21:44:57 -0700</pubDate><guid>https://www.eskild.blog/posts/2023-07-30-art/</guid><description>&lt;p>
 &lt;a href="https://eskild.art" target="_blank">eskild.art&lt;/a> is now live!&lt;/p>
 &lt;p>I have plenty of ideas on what this might morph into but for now, it&amp;rsquo;s simply a gallery.
 Can you solve the riddle to view the image?&lt;/p></description><content:encoded><![CDATA[<p> 

@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Homelab on eskild.blog</title><link>https://www.eskild.blog/tags/homelab/</link><description>Recent content in Homelab on eskild.blog</description><generator>Hugo -- 0.140.2</generator><language>en-us</language><lastBuildDate>Tue, 27 Aug 2024 22:15:22 -0700</lastBuildDate><atom:link href="https://www.eskild.blog/tags/homelab/index.xml" rel="self" type="application/rss+xml"/><item><title>In the beginning, there was hardware</title><link>https://www.eskild.blog/posts/2024-08-27-hl0/</link><pubDate>Tue, 27 Aug 2024 22:15:22 -0700</pubDate><guid>https://www.eskild.blog/posts/2024-08-27-hl0/</guid><description>&lt;p>The home lab. Sounds cool, you should get yourself one ;)&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Homelab on eskild.blog</title><link>https://www.eskild.blog/tags/homelab/</link><description>Recent content in Homelab on eskild.blog</description><generator>Hugo -- 0.141.0</generator><language>en-us</language><lastBuildDate>Tue, 27 Aug 2024 22:15:22 -0700</lastBuildDate><atom:link href="https://www.eskild.blog/tags/homelab/index.xml" rel="self" type="application/rss+xml"/><item><title>In the beginning, there was hardware</title><link>https://www.eskild.blog/posts/2024-08-27-hl0/</link><pubDate>Tue, 27 Aug 2024 22:15:22 -0700</pubDate><guid>https://www.eskild.blog/posts/2024-08-27-hl0/</guid><description>&lt;p>The home lab. Sounds cool, you should get yourself one ;)&lt;/p>
 &lt;p>Here&amp;rsquo;s how I got started quickly and cheaply.&lt;/p>
 &lt;h2 id="requirements">Requirements&lt;/h2>
-&lt;p>Besides cost and speed, I have a few other requirements and preferences that should help make simplify the process and hopefully make it more useful long-term.&lt;/p>
-&lt;p>First, given that I&amp;rsquo;m writing this on my M1 Macbook - with it&amp;rsquo;s &lt;code>arm&lt;/code> architecture - it makes sense for me to have a dedicated &lt;code>x86_64&lt;/code> machine. Second, I want a stable, widely used, Linux OS meant for servers. One that has a package manager with large selection of packages but also plenty of resources online to help me troubleshoot and learn.&lt;/p></description><content:encoded><![CDATA[<p>The home lab. Sounds cool, you should get yourself one ;)</p>
+&lt;p>Besides cost and speed, I have a few other requirements and preferences that should help simplify the process and hopefully make it more useful long-term.&lt;/p>
+&lt;p>First, given that I&amp;rsquo;m writing this on my M1 Macbook - with it&amp;rsquo;s &lt;code>arm&lt;/code> chip - it makes sense for me to have a dedicated &lt;code>x86_64&lt;/code> machine. Second, I want a stable, widely used, Linux OS meant for servers. One that has a package manager with large selection of packages but also plenty of resources online to help me troubleshoot and learn.&lt;/p></description><content:encoded><![CDATA[<p>The home lab. Sounds cool, you should get yourself one ;)</p>
 <p>Here&rsquo;s how I got started quickly and cheaply.</p>
 <h2 id="requirements">Requirements</h2>
-<p>Besides cost and speed, I have a few other requirements and preferences that should help make simplify the process and hopefully make it more useful long-term.</p>
-<p>First, given that I&rsquo;m writing this on my M1 Macbook - with it&rsquo;s <code>arm</code> architecture - it makes sense for me to have a dedicated <code>x86_64</code> machine. Second, I want a stable, widely used, Linux OS meant for servers. One that has a package manager with large selection of packages but also plenty of resources online to help me troubleshoot and learn.</p>
+<p>Besides cost and speed, I have a few other requirements and preferences that should help simplify the process and hopefully make it more useful long-term.</p>
+<p>First, given that I&rsquo;m writing this on my M1 Macbook - with it&rsquo;s <code>arm</code> chip - it makes sense for me to have a dedicated <code>x86_64</code> machine. Second, I want a stable, widely used, Linux OS meant for servers. One that has a package manager with large selection of packages but also plenty of resources online to help me troubleshoot and learn.</p>
 <p>The answer, Ubuntu Server. Shocker!</p>
 <blockquote>
 <p>Basically whenever I have to make a decision between a few options, the rule-of-thumb is to go with the simple, common solution.</p>
@@ -29,7 +29,7 @@
 <li>1TB NVMe SSD</li>
 <li>Price: $250</li>
 </ul>
-<p>It came in great condition and with a keyboard and mouse. A bangin&rsquo; deal if you ask me.</p>
+<p>It came in great condition and with a keyboard and mouse. A bangin&rsquo; deal if you ask me!</p>
 <p> 
 <a href="https://www.amazon.com/dp/B0778Y6K6N?psc=1&amp;ref=ppx_yo2ov_dt_b_product_details" target="_blank">Netgear Powerline Adapter Kit - used</a></p>
 <ul>
@@ -53,7 +53,7 @@
 <li> 
 <a href="https://www.amazon.com/dp/B07MH6DGMM?psc=1&amp;ref=ppx_yo2ov_dt_b_product_details" target="_blank">Cable tie mounts - Amazon</a></li>
 </ul>
-<p>Luckily I have an old monitor lying around I can used for the initially server setup. Finally with a pair of scissors, a few zip ties and a power strip, I have all that I need to get started.</p>
+<p>Luckily I had an old monitor lying around I used for the initially server setup. Finally with a pair of scissors, a few zip ties and a power strip, I have all that I need to get started.</p>
 <h3 id="hardware-setup">Hardware Setup</h3>
 <p>The setup is straight forward.</p>
 <p>Plug in one Powerline Adapter to outlet near the router and then connect it to the router with an ethernet cable.</p>
@@ -70,6 +70,6 @@
 </p>
 <p>That&rsquo;s it for the hardware setup.</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>I&rsquo;m excited to get started with this project. I&rsquo;ve been wanting to do this for a while and I&rsquo;m glad I&rsquo;m finally getting around to it. In the next post, I&rsquo;ll go over the the initial configuration of the server and Kubernetes setup.</p>
+<p>I&rsquo;m excited to get started with this project. I&rsquo;ve been wanting to do this for a while and I&rsquo;m glad I&rsquo;m finally getting around to it. In another post, I&rsquo;ll go over the the initial configuration of the server and Kubernetes setup.</p>
 <p><em>Looks over both shoulders</em>&hellip;. I just setup a desktop computer in my office closet and called it a home server.</p>
 ]]></content:encoded></item></channel></rss>
