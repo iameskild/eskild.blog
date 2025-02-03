@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Smartphones on eskild.blog</title><link>https://www.eskild.blog/tags/smartphones/</link><description>Recent content in Smartphones on eskild.blog</description><generator>Hugo -- 0.142.0</generator><language>en-us</language><lastBuildDate>Fri, 26 Jan 2024 08:38:54 +0700</lastBuildDate><atom:link href="https://www.eskild.blog/tags/smartphones/index.xml" rel="self" type="application/rss+xml"/><item><title>Smartphones as Pocketknives</title><link>https://www.eskild.blog/posts/2023-12-05-pk/</link><pubDate>Fri, 26 Jan 2024 08:38:54 +0700</pubDate><guid>https://www.eskild.blog/posts/2023-12-05-pk/</guid><description>&lt;p align="center">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Smartphones on eskild.blog</title><link>https://www.eskild.blog/tags/smartphones/</link><description>Recent content in Smartphones on eskild.blog</description><generator>Hugo -- 0.143.0</generator><language>en-us</language><lastBuildDate>Fri, 26 Jan 2024 08:38:54 +0700</lastBuildDate><atom:link href="https://www.eskild.blog/tags/smartphones/index.xml" rel="self" type="application/rss+xml"/><item><title>Smartphones as Pocketknives</title><link>https://www.eskild.blog/posts/2023-12-05-pk/</link><pubDate>Fri, 26 Jan 2024 08:38:54 +0700</pubDate><guid>https://www.eskild.blog/posts/2023-12-05-pk/</guid><description>&lt;p align="center">
 &lt;img src="https://www.eskild.blog/images/smartphone_pocketknife.jpg" alt="A smartphone with tools coming out." width="1000">
 &lt;/p>
 &lt;p>Modern smartphones retain the name of the tool they were initially designed as, phones. The irony is that making traditional phone calls probably makes up only a tiny fraction of what most people use their phones for these days.&lt;/p>
@@ -12,8 +12,7 @@
 <p>This post aims to convince you that we should reframe our relationship to our smartphones, and in the process, become a lot more selective about what we allow on them. The framing I would like us to consider is captured by the title of the post, <em>Smartphones as Pocketknives</em>; a device with several distinct tools that is used as needed and returned to our pockets when not.</p>
 <p>In the coming sections, I will share a few tips and techniques that I’ve discovered or developed over the years that have fundamentally altered how and when I use my smartphone.</p>
 <blockquote>
-<p>This post focuses on techniques specific to Apple iPhones. I also assume you have another device such as a tablet, laptop, or desktop.</p>
-</blockquote>
+<p>This post focuses on techniques specific to Apple iPhones. I also assume you have another device such as a tablet, laptop, or desktop.</p></blockquote>
 <h2 id="why-make-this-change">Why make this change?</h2>
 <p>You make the changes I outline below because you have this nagging sense that one of the most important pieces of technology in your life is not serving you.</p>
 <p>You make these changes because after 3 hours of scrolling Reddit or watching YouTube video after YouTube video, you feel guilty and somehow kind of dirty.</p>
@@ -33,8 +32,7 @@
 <li><strong>shopping</strong>: Amazon, Walmart, Etsy, etc.</li>
 </ul>
 <blockquote>
-<p>HARD MODE: Stop following the news all together.</p>
-</blockquote>
+<p>HARD MODE: Stop following the news all together.</p></blockquote>
 <p align="center">
 <img src="/images/purge_apps.jpg" alt="Personified apps running away from an axe murderer" width="500">
 </p>
@@ -43,8 +41,7 @@
 <a href="https://support.apple.com/guide/iphone/set-up-screen-time-for-yourself-iphb0c7313c9/ios" target="_blank">App Limit</a>, say 1 hour a day?</p>
 <p>Of course, some apps can’t realistically be used on any other device other than your smartphone, specifically Snapchat and Instagram (at least for posting new content). For those apps, honestly consider how important they are to you, and if you still want them on your phone, try subjecting them to strict App Limits.</p>
 <blockquote>
-<p>HARD MODE: Delete or deactivate all of your social media.</p>
-</blockquote>
+<p>HARD MODE: Delete or deactivate all of your social media.</p></blockquote>
 <p>You can, of course, add an App Limit to any of the apps that I recommended removing but where&rsquo;s the challenge in that?</p>
 <h2 id="lock-it-down">Lock it down</h2>
 <p>At this point, your phone may be unrecognizable to you. But we can go further.</p>
@@ -79,8 +76,7 @@
 <p>Finally, I highly recommend setting a  
 <a href="https://support.apple.com/en-us/108806" target="_blank">Screen Time Passcode</a> so that you are forced to acknowledge when you are breaking your own rules - this will also apply to App Limits.</p>
 <blockquote>
-<p>HARD MODE: Have a friend or partner set the Screen Time Passcode for you.</p>
-</blockquote>
+<p>HARD MODE: Have a friend or partner set the Screen Time Passcode for you.</p></blockquote>
 <p align="center">
     <img src="/images/iphone_screen_time_passcode.jpg" alt="Screenshot of iPhone web content menu." width="300">
 </p>
